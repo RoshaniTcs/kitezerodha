@@ -40,6 +40,7 @@ public void logoutApp() {
 	@AfterClass
 	public void closeBrowser() {
 		Reporter.log("Close browser",true);
+		Reporter.log("Ok",true);
 	}
 
 
